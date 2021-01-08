@@ -1,0 +1,11 @@
+CRITICAL - 2021-01-08 15:56:49 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(23): CodeIgniter\Model->findAll()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}

@@ -1,0 +1,214 @@
+CRITICAL - 2020-12-08 12:05:39 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(23): CodeIgniter\Model->findAll()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 12:05:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\sasmit...', 100, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\Users\\sasmit...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-08 12:05:58 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(23): CodeIgniter\Model->findAll()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 12:05:58 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\sasmit...', 100, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\Users\\sasmit...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-08 12:06:15 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(23): CodeIgniter\Model->findAll()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 12:06:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\sasmit...', 100, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\Users\\sasmit...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-08 14:05:08 --> Undefined variable: current
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\sistem\print.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\sasmit...', 24, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/print', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(128): view('sistem/print', Array)
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->print()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 14:33:18 --> Undefined variable: date
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\sistem\print.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\sasmit...', 27, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/print', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(129): view('sistem/print', Array)
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->print()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 14:48:38 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/print', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(129): view('sistem/print', Array)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->print()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-08 19:16:54 --> Undefined index: nama
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\layout\admintmp.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 49, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/admintmp', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/gambar', Array, true)
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(500): view('sistem/gambar', Array)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->gambar()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-08 19:17:03 --> Undefined index: nama
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\layout\admintmp.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 49, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/admintmp', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/gambar', Array, true)
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(500): view('sistem/gambar', Array)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->gambar()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-08 19:17:19 --> Undefined index: nama
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\layout\admintmp.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 49, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/admintmp', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/gambar', Array, true)
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(500): view('sistem/gambar', Array)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->gambar()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-08 19:18:51 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Models\userModel.php(16): CodeIgniter\Model->first()
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Auth.php(34): App\Models\userModel->getUser('mamat10')
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-08 19:18:51 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\sasmit...', 100, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\Users\\sasmit...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-08 20:01:00 --> Undefined variable: linkModal
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\layout\admintmp.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\sasmit...', 149, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/admintmp', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/userTabl...', Array, true)
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(58): view('sistem/userTabl...', Array)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->user()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-08 20:01:36 --> syntax error, unexpected '?>'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/kasTable', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(97): view('sistem/kasTable', Array)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->kas()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-08 21:01:55 --> Undefined variable: img
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\sistem\dashboard.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\sasmit...', 60, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/dashboar...', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(35): view('sistem/dashboar...', Array)
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-08 08:48:43 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\sasmit...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\bel...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\bel...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\bel...')
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#8 {main}
+CRITICAL - 2020-12-08 09:04:51 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php on line 79
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php(79): CodeIgniter\Router\RouteCollection->get('/ganti/(:num)/(...', Array, 'Sistem::ganti/$...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-08 09:07:03 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php on line 79
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php(79): CodeIgniter\Router\RouteCollection->get('/ganti/(:num)/(...', Array, 'Sistem::ganti/$...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}

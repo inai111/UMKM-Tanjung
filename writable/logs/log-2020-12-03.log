@@ -1,0 +1,124 @@
+CRITICAL - 2020-12-03 20:27:05 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('Home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:27:29 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:28:57 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:28:59 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:33:01 --> syntax error, unexpected '?>'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:33:33 --> syntax error, unexpected '?>'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:33:47 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:34:33 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:34:53 --> syntax error, unexpected end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:40:21 --> syntax error, unexpected ':'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-03 20:41:32 --> syntax error, unexpected '?>'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(9): view('home/index')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#8 {main}
+CRITICAL - 2020-12-03 21:54:22 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/index')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-03 21:55:55 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/index')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-03 22:05:36 --> syntax error, unexpected end of file
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/index')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/index')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}

@@ -1,0 +1,6 @@
+__ci_last_regenerate|i:1608300938;_ci_previous_url|s:26:"http://localhost:8080/auth";pesan|s:293:"<div class="alert alert-warning alert-dismissible fade show" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button> 
+					<strong>Gagal</strong>, Username atau password anda salah.
+					</div>";__ci_vars|a:2:{s:5:"pesan";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:8:"username";s:6:"tess12";s:8:"password";s:6:"123456";}}

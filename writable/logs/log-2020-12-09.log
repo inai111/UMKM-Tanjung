@@ -1,0 +1,212 @@
+CRITICAL - 2020-12-09 18:33:48 --> Unable to connect to the database.
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Home.php(23): CodeIgniter\Model->findAll()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-09 18:33:48 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\sasmit...', 100, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\Users\\sasmit...')
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 19:16:44 --> syntax error, unexpected ')', expecting ']'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('sistem/userTabl...', Array, true)
+#1 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(59): view('sistem/userTabl...', Array)
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->user()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#7 {main}
+CRITICAL - 2020-12-09 19:26:57 --> Too few arguments to function App\Controllers\Sistem::ganti(), 1 passed in C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('170')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#5 {main}
+CRITICAL - 2020-12-09 06:28:47 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php on line 79
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Config\Routes.php(79): CodeIgniter\Router\RouteCollection->get('/ganti/(:num)/(...', Array, 'Sistem::ganti/$...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 19:35:05 --> Undefined index: role
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 65, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('17', '0')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 19:35:34 --> Undefined index: role
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 67, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('17', '0')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 19:35:59 --> Undefined index: role
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 66, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('17', '0')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 19:36:30 --> Undefined index: role
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 67, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('17', '0')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 19:39:19 --> Undefined index: role
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Sistem.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\sasmit...', 65, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sistem->ganti('17', '1')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sistem))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 06:42:20 --> syntax error, unexpected ':', expecting ',' or ')'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\sasmit...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-09 06:43:07 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\sasmit...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-09 06:43:23 --> syntax error, unexpected ':', expecting ',' or ')'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\sasmit...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-09 06:43:36 --> syntax error, unexpected ':', expecting ',' or ')'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\Users\\sasmit...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#9 {main}
+CRITICAL - 2020-12-09 19:47:16 --> Undefined variable: username
+#0 C:\Users\sasmitobaguss\umkmTanjung\app\Views\layout\template.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\sasmit...', 38, Array)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\sasmit...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth', Array, true)
+#4 C:\Users\sasmitobaguss\umkmTanjung\app\Controllers\Auth.php(26): view('auth', Array)
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#6 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#10 {main}
+CRITICAL - 2020-12-09 06:59:43 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:01:53 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:01:56 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:02:33 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:02:54 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:03:52 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:04:23 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('sistem/ganti/([...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('sistem/ganti/17...')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
+CRITICAL - 2020-12-09 07:04:47 --> syntax error, unexpected ')', expecting ']'
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#4 {main}
+CRITICAL - 2020-12-09 07:06:20 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Router\Router.php(181): CodeIgniter\Router\RouteCollection->getFilterForRoute('ganti/([0-9]+)/...')
+#1 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ganti/17/1')
+#2 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\sasmitobaguss\umkmTanjung\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\sasmitobaguss\umkmTanjung\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\sasmit...')
+#6 {main}
