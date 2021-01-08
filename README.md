@@ -1,5 +1,8 @@
-<<<<<<< HEAD
 # CodeIgniter 4 Application Starter
+
+# UMKM-Tanjung *pakai framework CI4
+jangan di clone kalo bukan dosen saya sendiri yaaa... buat tugas ini.
+if you isn't my lecture, please don't clone this.
 
 ## What is CodeIgniter?
 
@@ -64,7 +67,5 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 =======
-# UMKM-Tanjung*pakai framework CI4
-jangan di clone kalo bukan dosen saya sendiri yaaa... buat tugas ini.
-if you isn't my lecture, please don't clone this.
->>>>>>> d8f67bb677e96509faff9f6b9520a9b4edfae68a
+
+
